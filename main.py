@@ -14,7 +14,7 @@ total_patient = data.shape[0]
 print("----------------")
 print(data.loc[30])
 print("----------------")
-
+"a"
 Diagnosis_num=np.zeros((data.shape[0],1)).astype(int)
 for i in range(data.shape[0]):
     if data['diagnosis'][i]=='M':
