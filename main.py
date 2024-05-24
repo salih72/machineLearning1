@@ -25,7 +25,7 @@ data.drop(['diagnosis'],axis=1,inplace=True)
 data=pd.concat([Diagnosis_num,data],axis=1)
 
 
-print("----------------")
+print("-----------------")
 print(data.head(5))
 print("----------------")
 
